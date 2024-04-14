@@ -10,9 +10,9 @@ export default function Main() {
             <div className="flex justify-center p-6">
                 <Learn />
             </div>
-            <div className="flex flex-col items-center pb-8">
+            {/* <div className="flex flex-col items-center pb-8">
                 <img src={logo} className="h-28 w-auto"/>
-            </div>
+            </div> */}
             <Email />
         </>
     )

@@ -14,13 +14,13 @@ export default function Fridge() {
             >
                 <MainHeader />
                 <div className="grid md:grid-cols-3">
-                    <div className="border-red-100 border p-6 order-2 md:order-1">
+                    <div className="p-6 order-2 md:order-1">
                         <FridgeTeam />
                     </div>
-                    <div className="border-red-100 border p-6 order-1 md:order-2">
+                    <div className="p-6 order-1 md:order-2">
                         <Main />
                     </div>
-                    <div className="border-red-100 border p-6 order-3 md:order-3">
+                    <div className="p-6 order-3 md:order-3">
                         <FoodPic />
                     </div>
                     </div>
