@@ -5,6 +5,7 @@ import Collaborators from './pages/Collaborators'
 import Donate from "./pages/Donate"
 import Footer from "./components/Footer"
 import Nav from "./components/Nav"
+import Individual from "./pages/Collaborators/Individual"
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/collaborators" element={<Collaborators />} />
           <Route path="/about" element={<About />} />
           <Route path="/donate" element={<Donate />} />
+          <Route path="/individual" element={<Individual />} />
         </Routes>
       </Router>
       <Footer />
