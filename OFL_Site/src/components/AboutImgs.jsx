@@ -1,4 +1,4 @@
-import feiniKieranAlessi from "../assets/feiniKieranAlessi.png"
+import waves from "../assets/waves.gif"
 import IMG_1056 from "../assets/food/IMG_1056.png"
 import IMG_1055 from "../assets/food/IMG_1055.png"
 import IMG_1054 from "../assets/food/IMG_1054.png"
@@ -7,7 +7,7 @@ import IMG_1052 from "../assets/food/IMG_1052.png"
 export default function AboutImgs() {
     return (
         <div className="min-h-screen bg-cover bg-no-repeat flex flex-col justify-center items-center"
-            style={{ backgroundImage: `url(${feiniKieranAlessi})` }}>
+            style={{ backgroundImage: `url(${waves})` }}>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-2 m-12">
                 <div className="border-yellow-200 border flex justify-center items-start">
                     <img src={IMG_1056} className="max-w-full hover:animate-bounce" />
